@@ -6,10 +6,15 @@ A tool for Backup .sql database file of MarzbanPanelBot
 Run the following command
 
 ```bash
-wget https://raw.githubusercontent.com/x0sina/MirzaPanelBot_AutoBackup/main/BackupMirzaPanel.sh | chmod +x backup_and_send.sh
+wget https://raw.githubusercontent.com/x0sina/MirzaPanelBot_AutoBackup/main/BackupMirzaPanel.sh | chmod +x BackupMirzaPanel.sh
 ```
 
-Once the installation is complete
+Once the installation is complete run the command below 
+
+```
+nano BackupMirzaPanel.sh
+```
+And change your database and telegram details in variables 
 
 To run the script run the following command
 
